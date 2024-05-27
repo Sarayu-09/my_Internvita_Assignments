@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A webpage showcasing all HTML tags">
+        <title>All HTML Tags Example</title>
+        <style>
+            body{
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            header,nav,section,article,aside,footer{
+                border:1px solid #ddd;
+                margin:10px;
+                padding:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>HTML tags Example</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Section 1<a></li>
+                    <li><a href="#section2">Section 2<a></li>
+                    <li><a href="#section3">Section 3<a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="section1">
+                <h2>Text Elements</h2>
+                <p>This is a <b>bold</b> text.</p>
+                <p>This is an <i>italic</i> text.</p>
+                <p>This is an <u>underlined</u>text.</p>
+                <p>This is a<mark>marked</mark>text.</p>
+                <p>This is a<small>small</small>text.</p>
+                <p>This is a<del>deleted</del>>text.</p>
+                <p>This is a<ins>inserted</ins>text.</p>
+                <p>This is a<sup>superscripted</sup>text.</p>
+                <p>This is a<sub>subscripted</sub>>text.</p>
+                <blockquote>
+                    This is a blockquote Element used for longer quotes
+                </blockquote>
+                <address>
+                    This is an address element. Contact:XXXXX-XXXXX
+                </address>
+                <cite>This is a citation element</cite>
+                <q>Short quote</q>
+                <abbr title="Hypertext Markup Language">HTML</abbr>
+            </section>
+            <section id="section2">
+                <h2>Forms and Inputs</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="pw">password:</label>
+                    <input type="password" id="pw" name="password"><br>
+                    <label for="birthday">Birthday</label>
+                    <input type="date" id="birthday" name="birthday"><br>
+                    <label for="color">Fav Color:</label>
+                    <input type="color" id="color" name="color"><br>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10"><br>
+                    <label for="range">Range:</label>
+                    <input type="range" id="range" name="range" min="0" max="100"><br>
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments"></textarea><br>
+
+                    <label >Gender</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br><br>
+
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="india">India</option>
+                        <option value="uk">UK</option>
+                    </select><br><br>
+
+                    <input type="submit" value="Submit">
+                    <button type="reset">RESET</button>>
+
+                </form>
+            </section>
+            <section id="section3">
+                <h2>Media Elements</h2>
+            <figure>
+                <img src="https://via.placeholder.com/150" alt="Placeholder image">
+                <figcaption>Figure caption for the image.</figcaption>
+            </figure>
+            <video controls width="250">
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <object data="sample.pdf" type="application/pdf" width="300" height="200">
+                <embed src="sample.pdf" type="application/pdf">
+                This browser does not support PDFs. Please download the PDF to view it: <a href="sample.pdf">Download PDF</a>.
+            </object>
+        </section>
+        
+        <aside>
+            <h2>Aside Section</h2>
+            <p>This is an aside section which is related to the main content but not part of it.</p>
+        </aside>
+            </section>
+        </main>
+        <footer> <p>&copy; 2024 All HTML Tags Example. All rights reserved.</p></footer>
+    </body>
+</html>
